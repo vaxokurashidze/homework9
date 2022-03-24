@@ -1,0 +1,41 @@
+@media (max-width:1200px) {
+    .container {
+        width: 90%;
+    }
+
+.s-1 {
+    width: 100%;
+}
+.box1 {
+    width: 100%;
+    text-align:  center;
+    height:  150px;
+}
+.s-2 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .bars {
+        display: block;
+    }
+
+.nav-bar {
+    display: none;
+}
+
+@media (max-width:650px) {
+    .s-1-1 {
+        width: min-content;
+        align-items: center;
+    }
+
+
+.boxes {
+    flex-direction: column;
+    align-items: center;
+    }
+}

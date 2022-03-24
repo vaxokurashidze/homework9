@@ -30,7 +30,7 @@ header{
     font-size: 15.74px;
     font-family: 'Raleway', sans-serif;
 }
-.nav-li:not(last-child) {
+.nav-li:not(:last-child) {
     margin-right: 30px;
 }
 .bars {
@@ -50,6 +50,7 @@ header{
  .s-1 > div {
      background-image: url(../img/clip.png);
      background-repeat: no-repeat;
+     background-size: cover;
      background-size: 100% 100%;
      display: flex;
      justify-content: center;
@@ -73,3 +74,59 @@ header{
       font-family: 'Arial', sans-serif;
   }
 /*section 1 end */ 
+
+/*section 2 start */ 
+
+.s-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1 {
+    width: 269.07px;
+    height: 327.42px;
+    background-color: #FFFFFF;
+}
+.box1 > h4 {
+    font-size: 26px;
+    color: #1A1A1B;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+.box1 > div {
+     color: #8D8D8D;
+     font-size: 16px;
+     font-family: 'Raleway', sans-serif;
+     margin-bottom: 5px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 870px;
+    width: 100%;
+}
+.box {
+    width: 269.07px;
+    height: 327.42px;
+    background-color: #FFFFFF;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.box > img {
+    box-shadow: 0px 2px 43px -15px rgba(23,23,23,0.94);
+    -webkit-box-shadow: 0px 2px 43px -15px rgba(23,23,23,0.94);
+    -moz-box-shadow: 0px 2px 43px -15px rgba(23,23,23,0.94);
+}
+.head {
+    font-size: 18px;
+    color: #1A1A1B;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 10px;
+}
+.p {
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: 'Raleway', sans-serif;
+}
+/*section 2 end */ 
